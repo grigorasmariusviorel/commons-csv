@@ -794,7 +794,7 @@ public final class CSVFormat implements Serializable {
      */
     private void validate() throws IllegalArgumentException {
         for (int i=0; i<2; i++) {
-            System.out.print('.');
+            System.out.print('*');
             try {
                 Thread.currentThread().sleep(1000);
             } catch (InterruptedException e) {
